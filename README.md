@@ -15,3 +15,25 @@ pip install git+https://github.com/ivandustin/pyopenaichat.git
 ```
 poetry add git+https://github.com/ivandustin/pyopenaichat.git
 ```
+
+## Example
+
+```python
+from pyopenaichat import chat, user, assistant, system, function
+
+messages = [
+    system("Your name is Alice."),
+    user("Who are you?")
+]
+message = chat(messages)
+print(message)
+```
+
+Output
+
+```
+{
+  "role": "assistant",
+  "content": "Hello! My name is Alice. How can I assist you today?"
+}
+```
