@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "pyopenaichat"
+version = "0.1.0"
+description = "A simple wrapper for OpenAI Chat Completion API"
+authors = ["Ivan Dustin Bilon <ivan22.dust@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+openai = "^0.27.8"
+
+
+[tool.poetry.group.dev.dependencies]
+black = "^23.3.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
