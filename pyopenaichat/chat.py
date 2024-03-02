@@ -7,7 +7,7 @@ logger = logging.getLogger(__name__)
 
 def chat(messages, **kwargs):
     default = {
-        "model": "gpt-3.5-turbo-0613",
+        "model": "gpt-3.5-turbo",
         "temperature": 0,
     }
     kwargs = default | kwargs

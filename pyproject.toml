@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "pyopenaichat"
-version = "0.1.0"
+version = "0.2.0"
 description = "A simple wrapper for OpenAI Chat Completion API"
 authors = ["Ivan Dustin Bilon <ivan22.dust@gmail.com>"]
 license = "MIT"
